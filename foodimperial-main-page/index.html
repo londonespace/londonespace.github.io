@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>FoodImperial</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="css/styles.min.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="site-header-container">
+      <img class="food-imperial-logo" src="./img/food-imperial-logo.png" alt="Логотип Food Imperial">
+
+      <dl class="contacts-catalog">
+        <dt class="catalog-contact-number"><a href="tel:099 5000 307" class="number-link">099 5000 307</a></dt>
+        <dd class="catalog-contact-service">обеды</dd>
+        <dt class="catalog-contact-number"><a href="tel:099 5000 307" class="number-link">097 5000 307</a></dt>
+        <dd class="catalog-contact-service">кейтеринг</dd>
+        <dt class="catalog-contact-number"><a href="tel:099 5000 307" class="number-link">073 5000 301</a></dt>
+        <dd class="catalog-contact-service">фуршет box</dd>
+      </dl>
+
+      <nav class="site-menu">
+        <ul class="site-menu-list">
+          <li class="site-menu-item"><a href="#" class="site-menu-link">главная</a></li>
+          <li class="site-menu-item"><a href="#" class="site-menu-link">доставка</a></li>
+          <li class="site-menu-item"><a href="#" class="site-menu-link">меню</a></li>
+          <li class="site-menu-item"><a href="#" class="site-menu-link">контакты</a></li>
+          <li class="site-menu-item"><a href="#" class="site-menu-link">обеды</a></li>
+          <li class="site-menu-item"><a href="#" class="site-menu-link">кейтеринг</a></li>
+          <li class="site-menu-item"><a href="#" class="site-menu-link">фуршет</a></li>
+          <li class="site-menu-item"><a href="#" class="site-menu-link">торты на заказ</a></li>
+        </ul>
+      </nav>
+
+      <button class="site-menu-btn"></button>
+
+      <span class="log-in">вход для клиентов</span>
+      <button class="shop-cart-btn">корзина</button>
+    </div>
+  </header>
+
+  <section class="s-weekly-menu">
+    <div class="s-weekly-menu-container">
+      <h2 class="s-weekly-menu-title">меню</h2>
+
+      <ul class="s-weekly-menu-list">
+        <li class="s-weekly-menu-item"><a href="#" class="s-weekly-menu-link">понедельник</a></li>
+        <li class="s-weekly-menu-item"><a href="#" class="s-weekly-menu-link">вторник</a></li>
+        <li class="s-weekly-menu-item"><a href="#" class="s-weekly-menu-link">среда</a></li>
+        <li class="s-weekly-menu-item"><a href="#" class="s-weekly-menu-link">четверг</a></li>
+        <li class="s-weekly-menu-item"><a href="#" class="s-weekly-menu-link">пятница</a></li>
+        <li class="s-weekly-menu-item"><a href="#" class="s-weekly-menu-link">суббота</a></li>
+        <li class="s-weekly-menu-item"><a href="#" class="s-weekly-menu-link">воскресенье</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="s-offer">
+    <div class="s-offer-banner">
+      <h2 class="section-title">Новогоднее предложение</h2>
+      <p class="s-offer-subscribe">
+        Праздничный ужин <span class="s-offer-price"><strong>250</strong> грн/чел</span>
+      </p>
+      <button class="long-btn">заказать</button>
+    </div>
+  </section>
+
+  <section class="s-dishes">
+    <div class="s-dishes-container">
+      <button class="filters-btn">фильтры</button>
+      <button class="s-dishes-close-btn"></button>
+
+      <ul class="s-dishes-types-list">
+        <li class="dish-type-all" data-item>Все</li>
+        <li class="dish-type" data-item>Салаты</li>
+        <li class="dish-type" data-item>Первые блюда</li>
+        <li class="dish-type" data-item>Основные блюда</li>
+        <li class="dish-type" data-item>Гарниры</li>
+        <li class="dish-type" data-item>Десерты</li>
+        <li class="dish-type" data-item>Выпечка соленая</li>
+        <li class="dish-type" data-item>Комплексные обеды</li>
+        <li class="dish-type" data-item>Напитки и добавки</li>
+        <li class="dish-type" data-item>Хлебобулочные изделия</li>
+        <li class="dish-type" data-item>Одноразовые приборы</li>
+        <li class="dish-first-excluzive-type" data-item>Новогоднее предложение</li>
+        <li class="dish-excluzive-type" data-item>Праздничный ужин - 250 грн/чел</li>
+      </ul>
+
+      <button class="s-dishes-accept-btn">применить</button>
+
+      <ul class="s-dishes-gallery">
+        <li class="dish-item">
+          <h3 class="dish-title">Фиджи салат</h3>
+          <img class="dish-image" src="./img/dishes/fiji.png" alt="Буряк отварной салат">
+
+          <div class="dish-item-content">
+            <div class="dish-counter">
+              <button class="dish-counter-minus" data-counter-btn></button>
+              <span class="dish-counter-number">1</span>
+              <button class="dish-counter-plus" data-counter-btn></button>
+            </div>
+
+            <p class="dish-weight">150 г</p>
+
+            <p class="dish-consist">
+              Листья салата, помидоры черри, огурцы, перепелиные яйца, растительное масло, мёд, лимон
+            </p>
+
+            <div class="dish-offer">
+              <p class="dish-price"><strong>32</strong> грн</p>
+              <button class="buy-btn">купить</button>
+            </div>
+          </div>
+        </li>
+
+        <li class="dish-item">
+          <h3 class="dish-title">Буряк отварной салат</h3>
+          <img class="dish-image" src="./img/dishes/boiled-beets.png" alt="Буряк отварной салат">
+
+          <div class="dish-item-content">
+            <div class="dish-counter">
+              <button class="dish-counter-minus" data-counter-btn></button>
+              <span class="dish-counter-number">1</span>
+              <button class="dish-counter-plus" data-counter-btn></button>
+            </div>
+
+            <p class="dish-weight">150 г</p>
+
+            <p class="dish-consist">
+              Отварная свекла, соль, растительное масло
+            </p>
+
+            <div class="dish-offer">
+              <p class="dish-price"><strong>18</strong> грн</p>
+              <button class="buy-btn">купить</button>
+            </div>
+          </div>
+        </li>
+
+        <li class="dish-item">
+          <h3 class="dish-title">Греческий салат</h3>
+          <img class="dish-image" src="./img/dishes/greek-salad.png" alt="Буряк отварной салат">
+
+          <div class="dish-item-content">
+            <div class="dish-counter">
+              <button class="dish-counter-minus" data-counter-btn></button>
+              <span class="dish-counter-number">1</span>
+              <button class="dish-counter-plus" data-counter-btn></button>
+            </div>
+
+            <p class="dish-weight">200 г</p>
+
+            <p class="dish-consist">
+              Помидоры, болгарский перец, огурцы, красный лук, маслины, сыр фета, оливковое масло
+            </p>
+
+            <div class="dish-offer">
+              <p class="dish-price"><strong>42</strong> грн</p>
+              <button class="buy-btn">купить</button>
+            </div>
+          </div>
+        </li>
+
+        <li class="dish-item">
+          <h3 class="dish-title">Капуста свежая с зеленью </h3>
+          <img class="dish-image" src="./img/dishes/fresh-cabbage.png" alt="Буряк отварной салат">
+
+          <div class="dish-item-content">
+            <div class="dish-counter">
+              <button class="dish-counter-minus" data-counter-btn></button>
+              <span class="dish-counter-number">1</span>
+              <button class="dish-counter-plus" data-counter-btn></button>
+            </div>
+
+            <p class="dish-weight">100 г</p>
+
+            <p class="dish-consist">
+              Свежая капуста, морковь, укроп, зеленый лук, растительное масло
+            </p>
+
+            <div class="dish-offer">
+              <p class="dish-price"><strong>18</strong> грн</p>
+              <button class="buy-btn">купить</button>
+            </div>
+          </div>
+        </li>
+
+        <li class="dish-item">
+          <h3 class="dish-title">Греческий салат</h3>
+          <img class="dish-image" src="./img/dishes/greek-salad.png" alt="Буряк отварной салат">
+
+          <div class="dish-item-content">
+            <div class="dish-counter">
+              <button class="dish-counter-minus" data-counter-btn></button>
+              <span class="dish-counter-number">1</span>
+              <button class="dish-counter-plus" data-counter-btn></button>
+            </div>
+
+            <p class="dish-weight">200 г</p>
+
+            <p class="dish-consist">
+              Помидоры, болгарский перец, огурцы, красный лук, маслины, сыр фета, оливковое масло
+            </p>
+
+            <div class="dish-offer">
+              <p class="dish-price"><strong>42</strong> грн</p>
+              <button class="buy-btn">купить</button>
+            </div>
+          </div>
+        </li>
+
+        <li class="dish-item">
+          <h3 class="dish-title">Капуста свежая с зеленью </h3>
+          <img class="dish-image" src="./img/dishes/fresh-cabbage.png" alt="Буряк отварной салат">
+
+          <div class="dish-item-content">
+            <div class="dish-counter">
+              <button class="dish-counter-minus" data-counter-btn></button>
+              <span class="dish-counter-number">1</span>
+              <button class="dish-counter-plus" data-counter-btn></button>
+            </div>
+
+            <p class="dish-weight">100 г</p>
+
+            <p class="dish-consist">
+              Свежая капуста, морковь, укроп, зеленый лук, растительное масло
+            </p>
+
+            <div class="dish-offer">
+              <p class="dish-price"><strong>18</strong> грн</p>
+              <button class="buy-btn">купить</button>
+            </div>
+          </div>
+
+        <li class="dish-item">
+          <h3 class="dish-title">Буряк отварной салат</h3>
+          <img class="dish-image" src="./img/dishes/boiled-beets.png" alt="Буряк отварной салат">
+
+          <div class="dish-item-content">
+            <div class="dish-counter">
+              <button class="dish-counter-minus" data-counter-btn></button>
+              <span class="dish-counter-number">1</span>
+              <button class="dish-counter-plus" data-counter-btn></button>
+            </div>
+
+            <p class="dish-weight">150 г</p>
+
+            <p class="dish-consist">
+              Отварная свекла, соль, растительное масло
+            </p>
+
+            <div class="dish-offer">
+              <p class="dish-price"><strong>18</strong> грн</p>
+              <button class="buy-btn">купить</button>
+            </div>
+          </div>
+        </li>
+
+        <li class="dish-item">
+          <h3 class="dish-title">Фиджи салат</h3>
+          <img class="dish-image" src="./img/dishes/fiji.png" alt="Буряк отварной салат">
+
+          <div class="dish-item-content">
+            <div class="dish-counter">
+              <button class="dish-counter-minus" data-counter-btn></button>
+              <span class="dish-counter-number">1</span>
+              <button class="dish-counter-plus" data-counter-btn></button>
+            </div>
+
+            <p class="dish-weight">150 г</p>
+
+            <p class="dish-consist">
+              Листья салата, помидоры черри, огурцы, перепелиные яйца, растительное масло, мёд, лимон
+            </p>
+
+            <div class="dish-offer">
+              <p class="dish-price"><strong>32</strong> грн</p>
+              <button class="buy-btn">купить</button>
+            </div>
+          </div>
+        </li>
+
+        <li class="dish-item">
+          <h3 class="dish-title">Буряк отварной салат</h3>
+          <img class="dish-image" src="./img/dishes/boiled-beets.png" alt="Буряк отварной салат">
+
+          <div class="dish-item-content">
+            <div class="dish-counter">
+              <button class="dish-counter-minus" data-counter-btn></button>
+              <span class="dish-counter-number">1</span>
+              <button class="dish-counter-plus" data-counter-btn></button>
+            </div>
+
+            <p class="dish-weight">150 г</p>
+
+            <p class="dish-consist">
+              Отварная свекла, соль, растительное масло
+            </p>
+
+            <div class="dish-offer">
+              <p class="dish-price"><strong>18</strong> грн</p>
+              <button class="buy-btn">купить</button>
+            </div>
+          </div>
+        </li>
+
+        <li class="dish-item">
+          <h3 class="dish-title">Фиджи салат</h3>
+          <img class="dish-image" src="./img/dishes/fiji.png" alt="Буряк отварной салат">
+
+          <div class="dish-item-content">
+            <div class="dish-counter">
+              <button class="dish-counter-minus" data-counter-btn></button>
+              <span class="dish-counter-number">1</span>
+              <button class="dish-counter-plus" data-counter-btn></button>
+            </div>
+
+            <p class="dish-weight">150 г</p>
+
+            <p class="dish-consist">
+              Листья салата, помидоры черри, огурцы, перепелиные яйца, растительное масло, мёд, лимон
+            </p>
+
+            <div class="dish-offer">
+              <p class="dish-price"><strong>32</strong> грн</p>
+              <button class="buy-btn">купить</button>
+            </div>
+          </div>
+        </li>
+
+        <li class="dish-item">
+          <h3 class="dish-title">Греческий салат</h3>
+          <img class="dish-image" src="./img/dishes/greek-salad.png" alt="Буряк отварной салат">
+
+          <div class="dish-item-content">
+            <div class="dish-counter">
+              <button class="dish-counter-minus" data-counter-btn></button>
+              <span class="dish-counter-number">1</span>
+              <button class="dish-counter-plus" data-counter-btn></button>
+            </div>
+
+            <p class="dish-weight">200 г</p>
+
+            <p class="dish-consist">
+              Помидоры, болгарский перец, огурцы, красный лук, маслины, сыр фета, оливковое масло
+            </p>
+
+            <div class="dish-offer">
+              <p class="dish-price"><strong>42</strong> грн</p>
+              <button class="buy-btn">купить</button>
+            </div>
+          </div>
+        </li>
+
+        <li class="dish-item">
+          <h3 class="dish-title">Капуста свежая с зеленью </h3>
+          <img class="dish-image" src="./img/dishes/fresh-cabbage.png" alt="Буряк отварной салат">
+
+          <div class="dish-item-content">
+            <div class="dish-counter">
+              <button class="dish-counter-minus" data-counter-btn></button>
+              <span class="dish-counter-number">1</span>
+              <button class="dish-counter-plus" data-counter-btn></button>
+            </div>
+
+            <p class="dish-weight">100 г</p>
+
+            <p class="dish-consist">
+              Свежая капуста, морковь, укроп, зеленый лук, растительное масло
+            </p>
+
+            <div class="dish-offer">
+              <p class="dish-price"><strong>18</strong> грн</p>
+              <button class="buy-btn">купить</button>
+            </div>
+          </div>
+      </ul>
+
+      <button class="s-dishes-more-btn">ещё 8 блюд</button>
+    </div>
+  </section>
+
+  <section class="s-reviews">
+    <div class="s-reviews-container">
+      <h2 class="section-title">Отзывы наших клиентов</h2>
+
+      <div class="s-reviews-video-panel">
+
+        <div class="s-reviews-video-container">
+          <div class="s-reviews-video-wrapper">
+            <iframe class="s-reviews-video" width="754" height="404" src="https://www.youtube.com/embed/PnaXw_qUg3A"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <button class="s-reviews-slider-btn"></button>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="s-about-us">
+    <div class="container">
+      <h2 class="section-title">О нас</h2>
+
+      <p class="s-about-us-text">
+        Вы все еще не можете определиться, перекусывать ли в обеденный перерыв бутербродами,
+        бежать в кафе или <strong>заказать обед</strong>? Привозная домашняя кухня, <strong>комплексные обеды в
+          Киеве</strong> – это вкусные, недорогие
+        кушанья и существенная экономия времени. Удобный сервис давно оценили многие люди и питаются на работе здоровой
+        и
+        полноценной пищей <strong>(бизнес ланч в Киеве)</strong>.
+      </p>
+
+      <p class="s-about-us-text">
+        Но как выбрать безупречного поставщика, который обеспечит своевременную <strong>доставку обедов (Киев)</strong>,
+        ведь подобных
+        предложений в сфере общественного питания много. Мы готовы приподнять завесу и открыть вам секрет. Однако для
+        сначала целесообразно разобраться, почему лучше заказывать высококачественные аппетитные обеды в офис (Киев)
+        домашней кухни
+      </p>
+    </div>
+  </section>
+
+  <section class="s-payment">
+    <div class="container">
+
+      <ul class="s-payment-menu">
+        <li class="s-payment-item">оферта</li>
+        <li class="s-payment-item">способ оплаты</li>
+        <li class="s-payment-item">условия доставки</li>
+        <li class="s-payment-item">условия возврата</li>
+      </ul>
+
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer-copyright">Разработка сайтов - <strong>Genesis Group</strong></p>
+      <p class="footer-copyright">Продвижение сайта - <strong>SEO-Angels</strong></p>
+    </div>
+  </footer>
+
+  <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
